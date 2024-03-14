@@ -1,0 +1,251 @@
+body{
+    margin: 0px;
+    font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+}
+.blue{
+    color: #0095f6;
+}
+.bold{
+    font-weight: 500;
+    color: black;
+}
+.gray-font-color{
+    color: gray;
+}
+.bio-font-size{
+    font-size: 0.9rem;
+}
+.flex{
+    display: flex;
+}
+.align-center{
+    align-items: center;
+}
+.margin-none{
+    margin: 0px;
+}
+.margin-top-none{
+    margin-top: 0px;
+}
+.img-div{
+    height: 32px;
+    margin: 0px 0px 19px;
+    padding: 25px 12px 16px;
+}
+.instagram{
+    height: 29px;
+}
+.menu-bar{
+    border-right: 1px solid rgba(164, 164, 164, 0.763);
+    width:225px;
+    padding: 8px 10px;
+    position: fixed;
+    top: 0;
+    margin: 0px 4px;
+}
+.menu-btn{
+    display: flex;
+    padding: 12px;
+    margin: 6px 0px;
+    width: 100%;
+    align-items: center;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+}
+.menu-btn:hover{
+    background-color: rgba(219, 219, 219, 0.589)
+}
+.menu-icons{
+    width:24px;
+}
+.menu-profile{
+    border: 1px solid lightgray;
+    border-radius: 50%;
+}
+.menu-txt{
+    padding-left: 10px;
+    padding-top: 5px;
+    margin: 0;
+}
+.insta-menu{
+    padding-bottom: 70px;
+}
+.profile-page{
+    width: 950px;
+    margin: 0px auto;
+    padding: 30px 20px 0px;
+}
+
+.profile-img{
+    margin: 0px 40px;
+}
+.img-container{
+    padding: 50px;
+}
+.profile-pic{
+    height: 150px;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+}
+.profile-info{
+    margin: 0px 20px;
+}
+.username{
+    font-weight: 450;
+    font-size: 1.25rem;
+    padding-right: 6px;
+}
+.verified-badge{
+    height: 18px;
+    fill: #0095f6;
+    padding-right: 16px;
+    padding-top: 4px;
+}
+.btn{
+    margin: auto 4px;
+    padding: 6px 26px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    height: 32px;
+}
+.btn-bg{
+    background-color: #0095f6;
+    color: white;
+}
+.more{
+    margin: auto 4px;
+    border: none;
+    border-radius: 6px;
+    padding: 2px 6px;
+    height: 32px;
+}
+.more-bg{
+    background-color: white;
+}
+.more-icon{
+    height: 16px;
+    padding: 0px 2px;
+}
+.option-icon{
+    height: 32px;
+}
+.number{
+    padding-right: 4px;
+}
+.n-container{
+    padding-right: 40px;
+}
+.user-name{
+    margin-bottom: 6px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.thread-icon{
+    height: 16px;
+    padding-right: 4px;
+}
+.thread-btn{
+    padding: 4px 6px;
+    border-radius: 50px;
+    border: none;
+}
+.thread-id{
+    font-size: smaller;
+    padding-top: 3px;
+}
+.link-svg{
+    height: 12px;
+    padding-right: 6px;
+}
+.bio-link{
+    font-weight: 500;
+    color: rgb(62, 62, 124);
+    font-size: 0.9rem;
+}
+.followed-by{
+    font-size: small;
+    font-weight: 500;
+}
+.stories{
+    margin: 10px;
+}
+.story{
+    height: 80px;
+    width: 80px;
+    border: none;
+    border-radius: 50%;
+    margin: 4px;
+}
+.story-container{
+    margin: 0px 8px 20px;
+}
+.story-border{
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    margin: 20px 20px 10px;
+}
+.story-txt{
+    text-align: center;
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+.story1{
+    background: rgb(34,193,195);
+background: linear-gradient(60deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+.story2{
+    background: rgb(53,66,92);
+    background: linear-gradient(60deg, rgba(53,66,92,1) 0%, rgba(28,28,150,0.9943627109046743) 50%, rgba(8,201,241,1) 100%);
+}
+.story3{
+    background: rgb(195,34,72);
+    background: linear-gradient(60deg, rgba(195,34,72,1) 6%, rgba(223,168,51,1) 100%);
+}
+.story4{
+    background: rgb(69,195,34);
+    background: linear-gradient(60deg, rgba(69,195,34,1) 6%, rgba(51,100,223,1) 100%);
+}
+.story5{
+    background: rgb(195,34,161);
+    background: linear-gradient(60deg, rgba(195,34,161,1) 6%, rgba(51,100,223,1) 100%);
+}
+.posts{
+    border-top: 1px solid rgb(199, 199, 199);
+    margin-top: 25px;
+    margin-bottom: 4px;
+    justify-content: center;
+}
+.tab-header{
+    margin-right: 60px;
+}
+.tab-top-border{
+    border-top: 2px solid black;
+}
+.tag-icon{
+    height: 12px;
+    padding-top: 2px;
+}
+.tab-name{
+    font-size: 0.8rem;
+    padding-left: 4px;
+    font-weight: 500;
+}
+.posts-container{
+    flex-wrap: wrap;
+    column-gap: 4px;
+}
+.post{
+    position: relative;
+    width: 33%;
+}
+.post-img{
+    width: 100%;
+}
+.post-icon{
+    position: absolute;
+    height: 20px;
+    top: 10px;
+    right: 10px;
+}
